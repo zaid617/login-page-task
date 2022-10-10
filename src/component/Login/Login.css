@@ -1,0 +1,92 @@
+.login{
+ display: flex;
+ height: 100vh;
+}
+
+.container1{
+ flex: 60%;
+ background: url("../../../public/images/bg-01.jpg") no-repeat center / cover ;
+ height: 100vh;
+ width: 100%;
+}
+
+.container2{
+ flex: 40%;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.inputBox{
+ display: flex;
+ flex-direction: column;
+
+}
+form{
+ width: 100%;
+ padding: 30px;
+}
+.heading{
+ font-size: 35px;
+ font-weight: 400;
+ padding: 50px;
+ text-align: center;
+ 
+}
+.inputs{
+ padding: 25px;
+ border-radius: 10px;
+ font-size: 20px;
+ font-weight: 200;
+ opacity: 0.6;
+ border: 1px solid grey;
+ margin-bottom: 10px;
+}
+.forgetDiv{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+ padding-bottom: 32px;
+ padding-top: 3px;
+ font-weight: 400;
+ opacity: 0.7;
+}
+.btn{
+ height: 50px;
+ padding: 0 20px;
+ background-color: #6675df;
+ color: #ffff;
+ font-weight: 600;
+ border-radius: 10px;
+ letter-spacing: 1px;
+ font-size: 15px;
+ border: 1px solid #6675df;
+}
+.check{
+ margin-right: 5px;
+}
+.para{
+ padding: 46px 0px 20px;
+ text-align: center;
+ font-weight: 400;
+ color: grey;
+ opacity: 0.7;
+}
+.images{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+
+.images img{
+ width: 40px;
+ height: 40px;
+ padding: 5px;
+}
+.a{
+ text-decoration: none;
+ color: grey;
+}
