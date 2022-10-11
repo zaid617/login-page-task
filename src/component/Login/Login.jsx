@@ -8,17 +8,8 @@ export default function Login() {
          <form>
           <h1 className="heading">Login to continue</h1>
           <div className="inputBox">
-
-            <div className="inputSubBox">
-            <label className="label" htmlFor="email">Email</label>
-           <input className="inputs" name="email" type="email"/>
-           </div>
-
-            <div className="inputSubBox">
-              <label className="label" htmlFor="password">Password</label>
-           <input className="inputs" name="password" type="password"/>
-           </div>
-           
+           <input className="inputs" type="email" placeholder="Email"/>
+           <input className="inputs" type="password" placeholder="Password" />
           
 
           <div className="forgetDiv">
