@@ -4,7 +4,7 @@
 }
 
 .container1{
- flex: 60%;
+ flex: 55%;
  background: url("../../../public/images/bg-01.jpg") no-repeat center / cover ;
  height: 100vh;
  width: 100%;
@@ -17,6 +17,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
+ background-color: #f7f7f7;
 }
 .inputBox{
  display: flex;
@@ -25,10 +26,10 @@
 }
 form{
  width: 100%;
- padding: 30px;
+ padding: 55px;
 }
 .heading{
- font-size: 35px;
+ font-size: 30px;
  font-weight: 400;
  padding: 50px;
  text-align: center;
@@ -38,11 +39,17 @@ form{
  padding: 25px;
  border-radius: 10px;
  font-size: 20px;
- font-weight: 200;
+ font-weight: 150;
  opacity: 0.6;
  border: 1px solid grey;
  margin-bottom: 10px;
+ background-color: #f7f7f7;
 }
+
+.inputs:focus{
+    outline: 2px solid #6675df;
+}
+
 .forgetDiv{
  display: flex;
  align-items: center;
@@ -63,6 +70,11 @@ form{
  letter-spacing: 1px;
  font-size: 15px;
  border: 1px solid #6675df;
+ transition: all ease-in-out 0.2s;
+ cursor: pointer;
+}
+.btn:hover{
+    background-color: #333333;
 }
 .check{
  margin-right: 5px;
@@ -82,11 +94,17 @@ form{
 }
 
 .images img{
- width: 40px;
- height: 40px;
- padding: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    object-fit: cover;
 }
 .a{
  text-decoration: none;
  color: grey;
+ transition: all ease-in-out 0.1s;
+}
+
+.a:hover{
+    color: #5c6bdc;
 }

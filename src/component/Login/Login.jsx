@@ -25,8 +25,8 @@ export default function Login() {
           <p className="para">Or sign up using</p>
 
            <div className="images">
-            <img src="https://airforshare.com/files/YEZhAu.png" alt="" />
-            <img src="https://airforshare.com/files/MVLAam.png" alt="" />
+            <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="" />
+            <img src="https://www.pinclipart.com/picdir/middle/74-740310_transparent-background-twitter-logo-clipart.png" alt="" />
            </div>
 
            </div>
