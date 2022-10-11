@@ -22,7 +22,6 @@
 .inputBox{
  display: flex;
  flex-direction: column;
-
 }
 form{
  width: 100%;
@@ -35,6 +34,20 @@ form{
  text-align: center;
  
 }
+.inputSubBox{
+    position: relative;
+    width: 100%;
+}
+label{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+}
+
+.inputs:focus ~ label{
+    transform: translateY(-20px);
+}
 .inputs{
  padding: 25px;
  border-radius: 10px;
@@ -44,6 +57,7 @@ form{
  border: 1px solid grey;
  margin-bottom: 10px;
  background-color: #f7f7f7;
+ width: 90%;
 }
 
 .inputs:focus{
@@ -98,6 +112,7 @@ form{
     height: 40px;
     padding: 5px;
     object-fit: cover;
+    cursor: pointer;
 }
 .a{
  text-decoration: none;
