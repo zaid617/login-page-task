@@ -13,15 +13,17 @@ export default function Login() {
             <div className="inputSubBox">
 
               <div className="input-container">
-                <input id="name" className="input" type="email" pattern=".+" required />
+                <input id="name" className="input" type="text" pattern=".+" required />
                 <label className="label" htmlFor="name">Email</label>
               </div>
             </div>
             
             <div className="inputSubBox">
-
+              
+                 {/* it's only works for text inputs */}
+               
             <div className="input-container1">
-                <input id="name1" className="input1" type="password" pattern=".+" required />
+                <input id="name1" className="input1" type="text" pattern=".+" required />
                 <label className="label" htmlFor="name1">Password</label>
               </div>
             </div>
