@@ -152,7 +152,7 @@
   /* Interation */
   .input:valid,
   .input:focus {
-    border: 2px solid #5c6bdc;
+    border: 1px solid #5c6bdc;
   }
   
   .input:valid + label,
